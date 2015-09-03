@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="style-blue.css" id="css" rel="stylesheet">
+
+</head>
+<style>  
+
+  .color-piker {
+	position:fixed;
+	width:30px;
+	height:90px;
+	background-color:white;
+	top:150px;
+	left:10px;
+	border-radius:3px;
+  }
+  
+  #blue {
+     width:26px;
+	 height:26px;
+	 margin-top:2px;
+	 margin-left:2px;
+	 float:left;
+	 background-color:#1E61E8;
+	 cursor:pointer;
+  }
+  
+  #red {
+     width:26px;
+	 height:26px;
+	 margin-top:2px;
+	 margin-left:2px;
+	 float:left;
+	 background-color:#E74C3C;
+	 cursor:pointer;
+  }
+ 
+  #viol {
+	width:26px;
+	 height:26px;
+	 margin-top:2px;
+	 margin-left:2px;
+	 float:left;
+	 background-color:#9710AF;
+	 cursor:pointer;
+  }
+  
+  #formazakaza {
+	position: fixed;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	background: rgba(57,168,179,0.8);
+	display: none;
+	z-index: 999;
+}
+
+.close-place {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 1000;
+}
+
+.forma2 {
+	position:relative;
+	margin:0 auto;
+	width:500px;
+	z-index:100000;
+}
+  </style>
+<body onLoad="onLoad();">
+
+<div class="wrapper">
+
+	<header class="header" id="header">
+		<div class="menu">
+			<div class="logo"></div>
+			<ul>
+				<li><a id="a1" href="#Home">ГЛАВНАЯ</a></li>
+				<li><a id="a2" href="#Feature">О НАС</a></li>
+				<li><a id="a3" href="#Works">РАБОТЫ</a></li>
+				<li><a id="a4" href="#Team">КОМАНДА</a></li>
+				<li><a id="a5" href="#Contact">КОНТАКТЫ</a></li>
+			</ul>
+		</div>
+	</header><!-- .header-->
+
+	<main class="content">
+		<div class="page page1" id="Home">
+			<div class="page-content">
+				<div class="slider slider1">
+					<ul>
+						<li>
+							<div>
+								<p class="title">Мы создаем простые красивые видео ролики </p>
+								<p class="subscribe">Каждый учасник команды вкладывает частичку себя в развитие проекта</p>
+							</div>
+							<img src="img/comp1.png" alt="">							
+						</li>
+						<li>
+							<div>
+								<p class="title">Мы полные энергии и энтузиазма</p>
+								<p class="subscribe">молодая креативная команда, каждая работа которой не похожа на предыдущие</p>
+							</div>
+							<img src="img/group1.png" alt="">							
+						</li>
+						<li>
+							<div>
+								<p class="title">Мы - студенты! Нашие проекты - это интеллектуальные викторины, опросы и просто познавательный и интересный материал</p>
+								<p class="subscribe">Всё что мы делаем - мы делаем в стенах родного ВУЗа ДонНУ.  </p>
+							</div>
+							<img src="img/stud1.png" alt="">							
+						</li>
+						
+					</ul>
+				</div>
+			</div>		
+		</div>
+		<div class="page page2" id="Feature">
+			<div class="page-content c2">
+				<p>МЫ РАБОТАЕМ ДЛЯ ВАС</p>
+				<div class="c2-block c2-heart">
+					<p class="c2-p1"><b>A CARE FOR</b> STANDARTS</p>
+					<div class="c2-hr"></div>
+					<p class="c2-p2">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+				
+				<div class="c2-block c2-infinite">
+					<p class="c2-p1"><b>A CARE FOR</b> STANDARTS</p>
+					<div class="c2-hr"></div>
+					<p class="c2-p2">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+				
+				<div class="c2-block c2-bag">
+					<p class="c2-p1"><b>A CARE FOR</b> STANDARTS</p>
+					<div class="c2-hr"></div>
+					<p class="c2-p2">
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+				</div>
+			</div>		
+		</div>
+
+	<div class="page page3" id="Works">
+			<div class="page-content c3">
+			<p>ЧАСТИЧКА НАШЕЙ ДУШИ</p>
+			<div id="tabs">
+				  <ul>
+					<li class="active"><a href="#tabs-1">Промо</a></li>
+					<li ><a href="#tabs-2">Выпуски</a></li>
+					<li><a href="#tabs-3">Наши фотографии</a></li>
+			
+				  </ul>
+				  
+				<div id="tabs-1" class="tab-style">
+					<iframe src="http://www.youtube.com/embed/y5wFAAOZ9Xw?rel=0" allowfullscreen="" frameborder="0"></iframe>
+					<iframe src="http://www.youtube.com/embed/3Qu3Z8U1YpQ?rel=0" allowfullscreen="" frameborder="0"></iframe>
+				</div>
+
+				
+				<div id="tabs-2" class="tab-style">
+					<iframe src="http://www.youtube.com/embed/45q_MtfZxyU?rel=0" allowfullscreen="" frameborder="0"></iframe>
+				</div>
+				
+				
+				
+				<div id="tabs-3" class="tab-style photo-sheet">
+					<div class="photo"><img src="img/t1.jpg"></div>
+					<div class="photo"><img src="img/t2.jpg"></div>
+					<div class="photo"><img src="img/t3.jpg"></div>
+					<div class="photo"><img src="img/t4.jpg"></div>
+					<div class="photo"><img src="img/t5.jpg"></div>
+					<div class="photo"><img src="img/t6.jpg"></div>
+					<div class="photo"><img src="img/t7.jpg"></div>
+					<div class="photo"><img src="img/t8.jpg"></div>
+				</div>
+			</div>	
+		</div>
+	</div>
+		<div class="page page4" id="Team">
+			<div class="page-content  c4">
+				<p>НАША КОМАНДА</p>
+				<div class="slider slider2">
+					<ul>
+						<li>
+							<div class="human">
+								<img src="img/1.jpg"/>
+								<p class="name">АНАСТАСИЯ ЛАЗУРЕНКО</p>
+								<p class="vacancy">ОРГАНИЗАТОР</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">Организатор Анастасия Лазуренко - наш директор и просто красивая, милая и умная девушка. По ее словам она "тонкая и утонченная натура", но если захотите поспорить с ней, то, лучше не стоит, живет она на Петровке, может и отметелить, если что)</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (050) 123-45-67</p>
+							</div>
+
+							<div class="human">
+								<img src="img/2.jpg"/>
+								<p class="name">МАРИЯ КОЛЛЕ</p>
+								<p class="vacancy">ВЕДУЩАЯ</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">"Узбагоительным" средством нашей команды является ведущая и, по совместительству, психолог Маша Колле (Оле Лукойе). И, пока у Маши всё "not bad", идем дальше.</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (050) 123-45-67</p>
+							</div>
+
+							<div class="human">
+								<img src="img/4.jpg"/>
+								<p class="name">ВЛАДИСЛАВ ЛЕВЧУК</p>
+								<p class="vacancy">ЖУРНАЛИСТ</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">"Вечно занятой и вечно в теме" это синтез журналиста и оператора- Влад Левчук. На столько журналист, что утверждает, что он 4я власть и прЭсса. Врывается на репетиции танцев и твердит девочкам, что они "не в танцах", вечно увольняет нашу 2ю ведущую. Холост.</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (050) 123-45-67</p>
+							</div>
+
+							<div class="human">
+								<img src="img/3.jpg"/>
+								<p class="name">АЛИНА БЯТЕНКО</p>
+								<p class="vacancy">ОПЕРАТОР</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">А это Алина Бятенко - наш оператор. Она всегда работает до последнего, даже когда остается 5 мин до отправки автобуса домой. Алина всегда готова к съемкам, что более точно отображает 1-я и 4-я фотографии выше.</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (050) 123-45-67</p>
+							</div>
+						</li>
+						
+						<li>
+							<div class="human">
+								<img src="img/5.jpg"/>
+								<p class="name">АЛЕКСЕЙ ГУКАЙ</p>
+								<p class="vacancy">ВИДЕО МОНТАЖ</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">За создание выпусков, их монтаж и редактуру, дежурный Леша Гукай. Для него нет гор, которых невозможно покорить и лошадей, которых не оседлать... и, пока Леша весит на стрелке часов, мы говорим ему "Спасибо"!)</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (050) 123-45-67</p>
+							</div>
+
+							<div class="human">
+								<img src="img/9.jpg"/>
+								<p class="name">ТЫ!</p>
+								<p class="vacancy">ЗВУКООПЕРАТОР</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">Ты умеешь работать со звуком и хочешь участвтовать в студенческом проекте? Тогда пиши нам и твоя анекта появится тут.</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (ХХХ) ХХХ-ХХ-ХХ</p>
+							</div>
+
+							<div class="human">
+								<img src="img/6.jpg"/>
+								<p class="name">ВЛАД ТКАЧУК</p>
+								<p class="vacancy">СЦЕНАРИСТ</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">Наш сценарист и редактура - Влад по прозвищу Писатель. Он на столько крут, что придумал сам как его величать. Обладает умом и сообразительностью, что не удивительно для студента физико-технического факультета.</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (050) 123-45-67</p>
+							</div>
+
+							<div class="human">
+								<img src="img/7.jpg"/>
+								<p class="name">ВЛАД БАРАНЕНКО</p>
+								<p class="vacancy">ОПЕРАТОР</p>
+								<div class="c4-hr"></div>
+								<p class="knowledge">Этот парень не с нами, он просто рекламирует напитки...
+А так это самый адекватный человек из команды Бараненко Влад II, он тоже журналист, а еще креативный продюсер и посредник между нами и отделом По связям с общественностью. Блистает отличными идеями и всегда рад помочь, но если что-то идет не по его задумке, то держитесь, дебаты начинаются!</p>
+								<div class="sites">
+									<a href=""></a>
+									<a href=""></a>
+									<a href=""></a>
+									
+								</div>
+								<p class="phone">+38 (050) 123-45-67</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+				
+			</div>	
+		</div>
+		<div class="page page5" id="Contact">
+			<div class="page-content c5">
+				<p>НАПИШИ НАМ, КАЖДОЕ СООБЩЕНИЕ <b>ВАЖНО ДЛЯ НАС!</b></p>
+				<form>
+					<input type="text" value="" placeholder="Твоё имя">
+					<input type="text" value="" placeholder="Твой E-MAIL">
+					<textarea placeholder="Текст сообщения"></textarea>
+					<input type="submit" value="Нажми" >
+				</form>
+				<div class="social">
+					<div class="address">
+						<p>пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p>
+						<p>пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 24</p>
+					</div>
+					
+					<div class="contact">
+						<p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</p>
+						<p>(095) 625-82-90</p>
+						<p>cce.fsdp@gmail.com</p>
+					</div>
+					
+					<div class="contact">
+						<p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:</p>
+						<p>(097) 749-49-22</p>
+						<p>cce.courses@gmail.com</p>
+					</div>
+					
+					<div class="contact">
+						<p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:</p>
+						<p>(050) 697-74-62</p>
+						<p>cce.shortcourses@gmail.com</p>
+					</div>
+					
+					<div class="sites">
+						<a href=""></a>
+						<a href=""></a>
+						<a href=""></a>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<div class="page page6">			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1334.7145540423978!2d37.79815123677962!3d48.00541905440738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e0905cf3131e5b%3A0xccbbd971aa07d886!2z0KPQvdGW0LLQtdGA0YHQuNGC0LXRgtGB0YzQutCwINCy0YPQuy4sIDI0LCDQlNC-0L3QtdGG0YzQuiwg0JTQvtC90LXRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1421785207719" width="600" height="450" frameborder="0" style="border:0"></iframe>
+		</div>
+	</main><!-- .content -->
+	
+	<div class="color-piker">
+		<div onclick="loadCss('#1E61E8');" id="blue"></div>
+		<div onclick="loadCss('#E74C3C');" id="red"></div>
+		<div onclick="loadCss('#9710AF');" id="viol"></div>
+	</div>
+	
+	<div id="portfolio-pic">
+		<div class="portfolio-picture" id="picpic"></div>
+		<div class="close-place close2"></div>
+	</div>
+</div><!-- .wrapper -->
+
+<div id="formazakaza">
+
+			<div class="forma2">
+				<form action="index.php" method="post">
+					<input name="name" type="text" placeholder="пїЅпїЅпїЅ" value="">
+					<input  name="email" type="text" placeholder="Email" value="">
+					<textarea  name="text" placeholder="пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ..."></textarea>
+					<input name="submit" type="submit" value="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ">
+				</form>
+			</div>
+			<div class="close-place close1"></div>
+</div>
+
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/main-js.js"></script>
+	
+	<script>
+		$('.photo-sheet img').bind('click', function(){
+			var a = document.getElementById("portfolio-pic");
+			a.style.cssText = "display:block;";
+			var b = document.getElementById("picpic");
+			b.style.cssText = "background:url('"+this.src+"') center no-repeat; background-size:cover;";
+		});
+
+		$('.close2').bind('click', function(){
+		 var a = document.getElementById("portfolio-pic");
+			a.style.cssText = "display:none;";
+		});
+
+	
+	</script>
+	
+
+</body>
+</html>
